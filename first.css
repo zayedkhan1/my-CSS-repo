@@ -2,7 +2,7 @@
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+/* 
 p{
     font-size: xx-large;
 
@@ -28,8 +28,8 @@ div {
 }
 div h3{
     text-align: center;
-}
-/* #Blog-page{
+} 
+ #Blog-page{
     background-color: aqua;
     text-align: center;
     padding: 5rem;
@@ -51,7 +51,7 @@ text-align: center;
 }
 #title{
     text-decoration: overline;
-} */
+} 
 #country{
     background-color: aqua;
 }
@@ -64,4 +64,35 @@ text-align: center;
 input[text]{
     
     color: green;
+} 
+h2{
+ text-align: center;
+    color: black;
+} 
+ h2:hover{
+    color:red;
+    text-decoration: overline;
 }
+.btn{
+    color: green; 
+
+    
+}
+.btn:hover{
+font-weight: 700;
+
+}
+.btn:disabled{
+    background-color: aqua;
+}
+.no{
+    color: black;
+    background-color: red;
+} 
+.no::first-letter{
+    color:orange;
+}
+.no::after{
+    content: " ";
+    border: 1rem solid green;
+} */
