@@ -6,7 +6,7 @@
 p{
     font-size: xx-large;
 
-    color: gold;
+    color:Black;
 }
 h2,p{
 
@@ -24,8 +24,44 @@ ul li{
     font-size:xx-large;
 }
 div {
-    background-color: red;
+
 }
 div h3{
     text-align: center;
+}
+/* #Blog-page{
+    background-color: aqua;
+    text-align: center;
+    padding: 5rem;
+    
+}
+#one{
+    width: 33%;
+    text-align: center;
+}
+#two{
+    width: 30%;
+    text-align: center;
+
+}
+#three{
+width: 30%;
+
+text-align: center;
+}
+#title{
+    text-decoration: overline;
+} */
+#country{
+    background-color: aqua;
+}
+.one{
+    width: 48%;
+}
+.title{
+    text-align: center;
+}
+input[text]{
+    
+    color: green;
 }
