@@ -1,0 +1,31 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Journey{
+    background-color: #b8e994;
+    color:darkcyan;
+}
+.title{
+    text-align: center;
+    text-decoration: underline;
+}
+.blog{
+    text-align: center;
+    width: 40%;
+}
+.sub_title{
+    font-family:cursive;
+    text-decoration: overline;
+    text-indent: -16%;
+    text-shadow: none;
+}
+.sub_title:hover{
+    text-decoration: none;
+
+}
+.btn{
+       font-size: small;
+}
+.btn:hover{
+    background-color: #b8e994;
+}
