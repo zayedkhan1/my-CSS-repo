@@ -2,6 +2,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
+
+
 #Journey{
     background-color: #b8e994;
     color:darkcyan;
@@ -21,6 +23,7 @@
     margin: 1rem;
     border-radius: 3rem;
     border: solid;
+    display: inline-block;
 }
 .sub_title{
     font-family:cursive;
@@ -37,4 +40,17 @@
 }
 .btn:hover{
     background-color: #b8e994;
+}
+.opa{
+    opacity: 1;
+}
+.opa:hover{
+    opacity: 0.3;
+}
+
+.over{
+    width: 30%;
+    background-color: aquamarine;
+    height:150px;
+    overflow: scroll;
 }
