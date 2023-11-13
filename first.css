@@ -1,8 +1,11 @@
+
 *{
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-/* 
+
+
+
 p{
     font-size: xx-large;
 
@@ -95,4 +98,4 @@ font-weight: 700;
 .no::after{
     content: " ";
     border: 1rem solid green;
-} */
+}
