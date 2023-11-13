@@ -1,5 +1,6 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 #Journey{
     background-color: #b8e994;
@@ -8,10 +9,18 @@
 .title{
     text-align: center;
     text-decoration: underline;
+    padding: 2rem;
+    border: 1rem solid skyblue;
+    border-radius: 2rem;
 }
 .blog{
     text-align: center;
-    width: 40%;
+    width: 30%;
+    background-color:skyblue;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    border: solid;
 }
 .sub_title{
     font-family:cursive;
