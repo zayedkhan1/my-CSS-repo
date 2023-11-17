@@ -1,0 +1,62 @@
+:root{
+    font-size: larger;
+    color: black;
+    padding: 5px;
+    list-style-type: none;
+}
+header{
+    background-color: #89B9AD ;
+}
+.nav{
+    padding: var();
+    display: flex;
+    justify-content:right;
+
+ 
+}
+
+
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2.4rem;
+}
+.nav li:hover{
+    text-decoration: underline;
+    
+}
+#card-section{
+    background-color:red;
+ 
+}
+.header_title{
+    text-align: center;
+    text-decoration: underline;
+}
+.card{
+    background-color:antiquewhite;
+    width: 33%;
+    display: inline-block;
+    box-shadow: 0.3rem 0.2rem whitesmoke;
+    padding: var();
+ 
+
+    
+}
+.card:hover{
+    box-shadow: 0.3rem 0.2rem 0.5rem rgb(0, 176, 97);
+}
+.card_tilte{
+    text-align: center;
+    text-decoration: overline;
+}
+.card_body{
+
+}
+.btn{
+    font-size:x-small;
+  
+}
+.btn:hover{
+    font-size: medium;
+}
