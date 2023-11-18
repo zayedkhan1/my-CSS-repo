@@ -26,7 +26,8 @@ header{
     
 }
 #card-section{
-    background-color:red;
+    background-color:rgb(255, 0, 179);
+  
  
 }
 .header_title{
@@ -34,11 +35,13 @@ header{
     text-decoration: underline;
 }
 .card{
-    background-color:antiquewhite;
+    background-color:rgb(180, 111, 22);
     width: 33%;
     display: inline-block;
-    box-shadow: 0.3rem 0.2rem whitesmoke;
+    box-shadow: 0.1rem 0.1rem whitesmoke;
     padding: var();
+    border-radius: 0.2rem;
+ 
  
 
     
@@ -59,4 +62,81 @@ header{
 }
 .btn:hover{
     font-size: medium;
+}
+.projects{
+    background-color:#EEF296 ;
+
+}
+.projects_title{
+    text-align: center;
+    text-decoration: overline;
+    padding: 2rem;
+    
+
+}
+.projects_title:hover{
+   
+}
+.p_card{
+    display: inline-block;
+    width: 30%;
+    background-color: #9ADE7B;
+    border-radius:0.3rem;
+    margin-right: 1.3rem;
+    text-align: center;
+    padding: 0.3rem;
+    
+
+
+}
+.p_card:hover{
+    transform: scale(1.2);
+   transition-duration: 1.5s;
+}
+.p_title{
+text-align: center;
+text-decoration: underline;
+
+}
+.p_body{
+
+}
+.p_btn{
+    font-size: small;
+    border-radius: 0.3rem;
+    background-color: orange;
+
+
+
+}
+.round{
+    height: 200px;;
+    width: 200px;
+    border-radius:50%;
+}
+#footer{
+    background-color: #DDF2FD;
+    height: 80vh;
+}
+.footer_title{
+    text-align: center;
+    padding: 2rem;
+}
+.fot_all{
+    
+}
+.div{
+    display: inline-block;
+    width: 30%;
+   
+
+     
+}
+.div2{
+    float: right;
+
+}
+
+.to{
+    border-radius: 0.3rem;
 }
